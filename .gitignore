@@ -177,3 +177,12 @@ cython_debug/
 
 data.json
 temp.json
+
+# Media files
+*.mp4
+*.png
+*.jpg
+
+# Microstructure build libraries and generated meshes (large files)
+microstructure/microstructure_inflators/3rdparty/
+microstructure/microstructure_inflators/outputs/
