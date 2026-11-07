@@ -1,0 +1,8 @@
+{
+  "sensitivity": 8.0,
+  "deadband": 125.0,
+  "flip_x": true,
+  "flip_y": true,
+  "swap_xy": true,
+  "force_threshold": 65.0
+}
