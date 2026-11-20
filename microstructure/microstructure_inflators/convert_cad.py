@@ -64,7 +64,8 @@ def main():
         print(f"Error: Input file {input_path} does not exist.")
         sys.exit(1)
 
-    # 1. Scale and prepare OBJ    base_name = os.path.splitext(os.path.basename(input_path))[0]
+    # 1. Scale and prepare OBJ
+    base_name = os.path.splitext(os.path.basename(input_path))[0]
     out_dir = os.path.join(script_dir, "outputs")
     os.makedirs(out_dir, exist_ok=True)
     
